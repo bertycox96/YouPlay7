@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TT Milks';
+    src: local('TT Milks Bold'), local('TT-Milks-Bold'),
+        url('TTMilks-Bold.woff2') format('woff2'),
+        url('TTMilks-Bold.woff') format('woff'),
+        url('TTMilks-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
