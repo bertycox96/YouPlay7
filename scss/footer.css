@@ -1,0 +1,190 @@
+footer {
+  height: 865px;
+}
+
+#horiz_img_block {
+  position: absolute;
+  margin-left: 632px;
+  background-image: url(../img/horizon.png);
+  background-size: cover;
+  height: 530px;
+  width: 885px;
+}
+
+#info {
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 90px;
+  height: 500px;
+  width: 650px;
+  font-family: 'Montserrat';
+  font-size: 26px;
+  text-align: center;
+}
+
+#info #info_text {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  color: black;
+  text-align: center;
+}
+
+.niz {
+  position: absolute;
+  height: 200px;
+  width: 1450px;
+  margin-top: 640px;
+  margin-left: 35px;
+}
+
+.niz .controller2 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#named {
+  text-align: left;
+  font-family: "TT Milks";
+  font-size: 31px;
+  color: #0083c0;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 31px;
+}
+
+.footer_menu {
+  position: absolute;
+  text-align: left;
+  font-family: "TT Milks";
+  font-size: 20px;
+}
+
+.footer_menu #menu1 {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 35px;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.footer_menu #menu2 {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 35px;
+  list-style: none;
+  text-transform: uppercase;
+  width: 240px;
+}
+
+.footer_menu #menu3 {
+  position: absolute;
+  margin-left: 760px;
+  margin-top: 35px;
+  list-style: none;
+  text-transform: uppercase;
+  width: 240px;
+}
+
+.footer_menu #menu4 {
+  position: absolute;
+  margin-left: 990px;
+  margin-top: 35px;
+  list-style: none;
+  text-transform: uppercase;
+  width: 240px;
+}
+
+.footer_menu li {
+  margin-bottom: 1.3em;
+}
+
+.footer_menu #aa {
+  color: #ffa600;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.footer_menu #aa:hover {
+  color: #222;
+}
+
+.footer_menu #aa:before, .footer_menu #aa:after {
+  content: '';
+  background: #000000;
+  position: absolute;
+  width: 0;
+  height: 1px;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.footer_menu #aa:before {
+  top: 0;
+  left: 0;
+}
+
+.footer_menu #aa:after {
+  top: 100%;
+  right: 0;
+}
+
+.footer_menu #aa:hover:before, .footer_menu #aa:hover:after {
+  width: 100%;
+}
+
+.logos {
+  position: absolute;
+  margin-left: 1225px;
+  margin-top: 26px;
+  height: 50px;
+  width: 230px;
+}
+
+.logos .logosimg1, .logos #logosimg2 {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-right: 16px;
+}
+
+.logos .logosimg1:hover, .logos #logosimg2:hover {
+  -webkit-filter: invert(54%) sepia(27%) saturate(875%) hue-rotate(172deg) brightness(85%) contrast(88%);
+          filter: invert(54%) sepia(27%) saturate(875%) hue-rotate(172deg) brightness(85%) contrast(88%);
+}
+
+.logos #logosimg3 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-right: 16px;
+}
+
+.logos #logosimg3:hover {
+  -webkit-filter: invert(28%) sepia(96%) saturate(6807%) hue-rotate(9deg) brightness(101%) contrast(91%);
+          filter: invert(28%) sepia(96%) saturate(6807%) hue-rotate(9deg) brightness(101%) contrast(91%);
+}
+
+.logos #logosimg4 {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.logos #logosimg4:hover {
+  -webkit-filter: invert(58%) sepia(11%) saturate(2029%) hue-rotate(189deg) brightness(93%) contrast(89%);
+          filter: invert(58%) sepia(11%) saturate(2029%) hue-rotate(189deg) brightness(93%) contrast(89%);
+}
+
+#hrr2 {
+  position: absolute;
+  height: 1px;
+  width: 1450px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/*# sourceMappingURL=footer.css.map */
