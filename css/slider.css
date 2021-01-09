@@ -1,0 +1,216 @@
+.block_slider{
+    position: absolute;
+    border: 1px solid transparent;
+    margin-top: 1380px;
+    height: 500px;
+    width: 1140px;
+    margin-left: 200px;
+  }
+.slider {
+    margin: 0 auto;
+    max-width: 1500px;
+  }
+  
+  .slide_viewer {
+    height: 530px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .slide_group {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .slide {
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .slide:first-child {
+    display: block;
+  }
+  
+  .slide:nth-of-type(1) {
+    background-image: url(../img/ghost\ \(1\).jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  
+  .slide:nth-of-type(2) {
+    background-image: url(../img/farcry6.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  
+  .slide:nth-of-type(3) {
+    background-image: url(../img/sp-miles-morales.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  
+  .slide:nth-of-type(4) {
+    background-image: url(../img/demonssouls-keyart.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  
+  .slide_buttons {
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+  }
+  
+  a.slide_btn {
+    color: #474544;
+    font-size: 42px;
+    margin: 0 0.175em;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .slide_btn.active, .slide_btn:hover {
+    color: #428CC6;
+    cursor: pointer;
+  }
+  
+  .directional_nav {
+    height: 250px;
+    margin: 0 auto;
+    max-width: 940px;
+    position: relative;
+    top: -380px;
+  }
+  
+  .previous_btn {
+    bottom: 0;
+    left: -65px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+  }
+  
+  .next_btn {
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    right: -65px;
+    top: 0;
+  }
+  
+  .previous_btn, .next_btn {
+    cursor: pointer;
+    height: 65px;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    width: 65px;
+  }
+  
+  .previous_btn:hover, .next_btn:hover {
+    opacity: 1;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .previous_btn {
+      left: 50px;
+    }
+    .next_btn {
+      right: 50px;
+    }
+  }
+
+  .switch span {
+    display: inline-block;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .switch div {
+    display: none;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  
+  .active span {
+    color: rgb(240, 23, 23);
+  }
+
+  .akk{
+    position: absolute;
+    border: 1px solid transparent;
+    margin-top: 2020px;
+    height: 900px;
+    width: 1140px;
+    margin-left: 200px;
+    text-align: center;
+  }
+.img-switch{
+    height: 400px;
+    border-radius: 10px;
+}
+#awards_text{
+    position: relative;
+    color:black;
+    text-decoration: none;
+    text-align: center; 
+    display: block;
+    font-family: 'TT Milks';
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    transition: color .02s;
+    padding-bottom: 30px;
+  }
+#awards_game_text1{
+    text-align: center; 
+    font-family: 'TT Milks';
+    font-size: 25px;
+    position: relative;
+  }
+  #awards_game_text2{
+    text-align: center; 
+    font-family: 'TT Milks';
+    font-size: 25px;
+    position: relative;
+  }
+  #awards_game_text3{
+    text-align: center; 
+    font-family: 'TT Milks';
+    font-size: 25px;
+    position: relative;
+  }
+  .content_wr{
+      text-align: start;
+      font-size: 17px;
+      font-family: "Montserrat";
+      margin-left: 50px;
+  }
+a{
+    color: black;
+  }
+
+  .active #firstg{
+    color: rgb(0, 21, 66);
+   }
+   .active #secondg{
+    color: rgb(214, 29, 29);
+   }
+   .active #thirdg{
+    color: #428CC6;
+   }

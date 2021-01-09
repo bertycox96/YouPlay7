@@ -1,0 +1,86 @@
+#game_search{
+    position: absolute;
+    margin-top: 31px;
+    margin-left: 791px;
+}
+#search_text{
+    position: relative;
+    color:black;
+    text-decoration: none;
+    text-align: center; 
+    display: block;
+    font-family: 'TT Milks';
+    font-size: 20px;
+    position: relative;
+}
+#block_search{
+    position: absolute;
+    margin-left: 873px;
+    margin-top: 21px;
+}
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 90%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+input[type=search] {
+	background: #ffffff00 url(/img/1/magnifying_glass_T\ \(1\).png) no-repeat 10px center;
+	border: solid 1px rgb(0, 0, 0);
+	padding: 9px 10px 9px 32px;
+    width: 55px;
+    background-size: 20px 20px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+    transition: all .3s;
+    
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #00000000;
+}
+input:-moz-placeholder {
+	color: rgba(153, 153, 153, 0);
+}
+input::-webkit-input-placeholder {
+	color: rgba(153, 153, 153, 0);
+}
+
+#Sch input[type=search] {
+	width: 380px;
+	padding-left: 10px;
+	color: transparent;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+#Sch input[type=search]:hover {
+	background-color: rgba(255, 255, 255, 0);
+}
+#Sch input[type=search]:focus {
+	width: 352px;
+	padding-left: 38px;
+	color: #000;
+	background-color: rgb(255, 255, 255);
+	cursor: auto;
+}
+#Sch input:-moz-placeholder {
+	color: transparent;
+}
+#Sch input::-webkit-input-placeholder {
+	color: transparent;
+}

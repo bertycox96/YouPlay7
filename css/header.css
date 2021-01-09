@@ -1,0 +1,305 @@
+@font-face {
+  font-family: 'TT Milks';
+  src: url(../TTMilks-Bold/TTMilks-Bold.ttf);
+  src: url(../TTMilks-Bold/TTMilks-Bold.woff);
+  src: url(../TTMilks-Bold/TTMilks-Bold.woff2);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hacked';
+  src: url(../TTMilks-Bold/8693.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.containerH{
+    height: 748px;
+    width: 1500px;
+    margin-left: 9px;
+}
+
+.logo{
+  height: 220px;
+  width: 800px;
+  margin-top: 130px;
+  margin-left: 700px;
+  position: absolute;
+}
+.controller{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.conimg{
+  transition: 0.7s;
+}
+.conimg:hover {
+  transform: scale(1.1); 
+ }
+.trailer{
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 475px;
+}
+
+.search_text{
+  color:black;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'TT Milks';
+  font-size: 20px;
+}
+
+.preorder{
+  height: 60px;
+  width: 250px;
+  margin-top: 137px;
+  margin-left: 942px;
+  position: absolute;
+}
+.preorder_link{
+  color:black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'Hacked';
+  font-size: 51px;
+  font-weight: 700;
+  position: relative;
+  transition: color 0.3s;
+}
+.preorder_link:hover{
+  color: #fffb00;
+  -webkit-text-stroke: 0.4px rgb(0, 0, 0);
+}
+.preorder_link::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: transparent;
+  width: 150%;
+  height: calc(100% + 40px);
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: all 0.3s;  
+}
+.preorder_link:hover::before{
+  opacity: 1;
+}
+.preorder_text{
+  position: relative;
+}
+
+#myList li {
+  padding-left: 7px;
+  margin-bottom: 15px;
+  transition: all .2s ease-in-out;
+  transform: translate3d(0px, 30px, 0);
+  opacity: 0;
+}
+#myList li.active {
+  transform: translate3d(0px, 0, 0);
+  opacity: 1;
+}
+#myList li {
+  padding-left: 7px;
+  margin-bottom: 15px;
+  transition: all .2s ease-in-out;
+  transform: translate3d(0px, 30px, 0);
+  opacity: 0;
+}
+#myList li.active {
+  transform: translate3d(0px, 0, 0);
+  opacity: 1;
+}
+
+
+#zatemnenie {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 5;
+}
+#okno {
+  width: 400px;
+  height: 400px;
+  padding: 15px;
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  z-index: 5;
+}
+#zatemnenie:target {display: block;}
+
+.close {
+  display: inline-block;
+  padding: 0 12px;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 14pt;
+  cursor:pointer;
+  margin-top: 350px;
+}
+
+
+.enter{
+  height: 60px;
+  width: 100px;
+  margin-top: 21px;
+  margin-left: 1384px;
+  position: absolute;
+}
+.enter_text{
+  width: 90px;
+  color:black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'TT Milks';
+  font-size: 21px;
+  position: relative;
+  transition: color .02s;
+  border:solid 1px #000000; 
+  border-radius: 100px; 
+  transition: 0.4s;
+}
+.enter_text:hover{
+color: rgb(0, 0, 0);
+transition: all 0.2s;
+background: rgb(255, 255, 255);
+}
+.enter_text::before{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: transparent;
+    width: 100%;
+    height: calc(100% + 40px);
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: all .2s;  
+}
+.enter_text:hover::before{
+    opacity: 1;
+}
+
+#scroll-bottom {
+  position: relative;
+}
+
+#back-top{  
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 0;
+  margin: 0;  
+}
+
+#back-top a{
+  width:64px;
+  display:block;
+  text-align:center;
+  background-color: transparent;
+  -webkit-transition:1s;
+  -moz-transition:1s;
+  transition:1s;
+}
+
+#back-top span{
+  width:64px;
+  height: 64px;
+  display:block;
+  margin: 0;
+  padding: 0;
+  background: url("../img/site-arrow-1.png") no-repeat center center;
+  -webkit-transition:1s;
+  -moz-transition:1s;
+  transition:1s;
+}
+
+#back-top a:hover span{
+  background-color: rgba(0,0,0,0.1);
+}
+
+@media (max-width:550px) {
+#back-top{  
+  position:fixed;
+  width: 100%;
+  height: 38px;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0,0,0,0.7);  
+}
+
+#back-top a{
+  width:100%;
+  display:block;
+  text-align:center;
+}
+
+#back-top span{
+  width: 100%;
+  height: 38px;
+  display:block;
+  margin: 0;
+  padding: 0;
+  background: url("..img/site-arrow-2.png") no-repeat center center;
+}
+}
+
+.toggle-container {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+#toggle {
+  background: #17141d;
+  color: gold;
+  border-radius: 50px;
+  padding: 1px 5px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+i {
+  padding: 0 1px;
+}
+
+#ball {
+  height: 22px;
+  width: 22px;
+  position: absolute;
+  background-color: #fafafa;
+  border-radius: 50%;
+  top: 2.2px;
+  left: 3px;
+}
+
+.active {
+  left: 25px;
+}
+
+#test {
+  width: 75%;
+  text-align: center;
+  color: black;
+  line-height: 1.6;
+  letter-spacing: 3px;
+}

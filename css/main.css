@@ -1,0 +1,1118 @@
+#background1{
+    background-image: url(../img/fffda35e1e49851171ccdc5f253fe901.jpg);
+    height: 777px;
+    width: 1519px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.main_block{
+  width: 1515px;
+  height: 4050px;
+}
+.sell{
+  margin-top: 50px;
+  position: absolute;
+  width: 805px;
+  height: 50px;
+  margin-left: 350px;
+}
+
+#first_block{
+  position: absolute;
+  height: 49px;
+  width: 150px;
+  margin-top: 2px;
+}
+#fourth_block{
+  position: absolute;
+  height: 49px;
+  width: 150px;
+  margin-top: 2px;
+  margin-left: 654px;
+}
+#first_link{
+    color:black;
+    padding: 6px;
+    text-decoration: none;
+    text-align: center; 
+    display: block;
+    font-family: 'TT Milks';
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    transition: color .02s;
+
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+#first_link:hover{
+    color: rgb(0, 131, 192);
+    background-size: 100% 2px;
+}
+#first_link::before{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: transparent;
+    width: 100%;
+    height: calc(100% + 40px);
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: all .2s;  
+}
+#first_link:hover::before{
+    opacity: 1;
+}
+#first_text{
+    position: relative;
+    transition: color .2s;
+}
+
+#second_block{
+  position: absolute;
+  height: 49px;
+  width: 200px;
+  margin-left: 151px;
+}
+#second_link{
+    color:rgb(0, 131, 192);
+    padding: 6px;
+    text-decoration: none;
+    text-align: center; 
+    display: block;
+    font-family: 'TT Milks';
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    transition: color .02s;
+    border:solid 2px #000000; 
+    border-radius: 13px; 
+}
+#second_link:hover{
+    color: rgb(0, 131, 192);
+}
+#second_link::before{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: transparent;
+    width: 100%;
+    height: calc(100% + 40px);
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: all .2s;  
+}
+#second_link:hover::before{
+    opacity: 1;
+}
+#second_text{
+    position: relative;
+    transition: color .2s;
+}
+#third_block{
+  position: absolute;
+  height: 49px;
+  width: 300px;
+  margin-left: 352px;
+  margin-top: 2px;
+}
+
+.block_list{
+  position: absolute;
+  height: 370px;
+  width: 1132px;
+  margin-top: 130px;
+  margin-left: 200px;
+}
+.part1{
+  position: absolute;
+  height: 370px;
+  width: 1130px;
+}
+
+#al-c {
+  display: table;
+  width: 100%;
+  height: 100%;
+ }
+ .container {
+  padding-right:5px;
+  padding-left:5px;
+  margin-right:auto;
+  margin-left:auto;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 15px;
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+ } 
+ .effects {
+  list-style:none;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0;
+ }
+  
+ .effects li {
+  position: relative;
+  display: inline-block;
+  box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-color: #fff;
+  font: normal 14px sans-serif;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'TT Milks';
+  font-size: 14px;
+  max-height: 280px;
+  transition: 2s;
+ }
+  
+ .effects li img {
+  display: block;
+  position: relative;
+  max-width:100%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+  
+ .effects li > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+ }
+  
+ .effects li:hover > div {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  
+ }
+  
+ .effects li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 10px;
+  color: #fff;
+  background: #000;
+  border-radius: 15px;
+  font-size: 100%;
+  transition: all 0.3s ease-in-out;
+ }
+  
+ .effects li a:hover {
+  background: #ff0000;
+  color: #fff;
+  
+ }
+  
+ .effects li > div {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.315);
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  transform: translate(0px, 0px) rotate(0deg);
+ }
+  
+ .effects li:hover div {
+  opacity: 1;
+  transform: translate(0px, 0px) rotate(0deg);
+ }
+
+ #game_link{
+  color:black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: 550;
+  position: relative;
+  transition: color .02s;
+}
+#game_link:hover{
+  color: rgb(0, 131, 192);
+}
+#game_link::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: transparent;
+  width: 100%;
+  height: calc(100% + 40px);
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: all .2s;  
+}
+#game_link:hover::before{
+  opacity: 1;
+}
+#game_text{
+  position: relative;
+  transition: color .2s;
+}
+.list1{
+  position: absolute;
+  height: 370px;
+  width: 225px;
+}
+.game_name{
+  position: absolute;
+  margin-left: 17px;
+  margin-top: 250px;
+  width: 190px;
+}
+.game_price{
+  position: absolute;
+  width: 75px;
+  height: 20px;
+  margin-top: 325px;
+  margin-left: 76px;
+}
+#price_text{
+  color:black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'TT Milks';
+  font-size: 21px;
+  font-weight: 650;
+  position: relative;
+  transition: color .02s;
+  -webkit-text-stroke: 0.5px white;
+}
+.list2{
+  position: absolute;
+  height: 370px;
+  width: 225px;
+  margin-left: 228px;
+}
+.game_name2{
+  position: absolute;
+  margin-top: 250px;
+  width: 210px;
+  margin-left: 240px;
+}
+.game_price2{
+  position: absolute;
+  width: 75px;
+  height: 20px;
+  margin-top: 325px;
+  margin-left: 305px;
+}
+#price_text2{
+  color:black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'TT Milks';
+  font-size: 21px;
+  font-weight: 650;
+  position: relative;
+  transition: color .02s;
+  -webkit-text-stroke: 0.5px white;
+}
+
+.list3{
+  position: absolute;
+  height: 370px;
+  width: 225px;
+  margin-left: 454px;
+}
+.game_name3{
+  position: absolute;
+  margin-top: 250px;
+  width: 210px;
+  margin-left: 465px;
+}
+.game_price3{
+  position: absolute;
+  width: 75px;
+  height: 20px;
+  margin-top: 325px;
+  margin-left: 535px;
+}
+#price_text3{
+  color:black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'TT Milks';
+  font-size: 21px;
+  font-weight: 650;
+  position: relative;
+  transition: color .02s;
+  -webkit-text-stroke: 0.5px white;
+}
+
+.list4{
+  position: absolute;
+  height: 370px;
+  width: 225px;
+  margin-left: 680px;
+}
+.game_name4{
+  position: absolute;
+  margin-top: 250px;
+  width: 210px;
+  margin-left: 692px;
+}
+.game_price4{
+  position: absolute;
+  width: 75px;
+  height: 20px;
+  margin-top: 325px;
+  margin-left: 760px;
+}
+#price_text4{
+  color:black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'TT Milks';
+  font-size: 21px;
+  font-weight: 650;
+  position: relative;
+  transition: color .02s;
+  -webkit-text-stroke: 0.5px white;
+}
+
+.list5{
+  position: absolute;
+  height: 370px;
+  width: 225px;
+  margin-left: 906px;
+}
+.game_name5{
+  position: absolute;
+  margin-top: 250px;
+  width: 210px;
+  margin-left: 915px;
+}
+.game_price5{
+  position: absolute;
+  width: 75px;
+  height: 20px;
+  margin-top: 325px;
+  margin-left: 985px;
+}
+#price_text5{
+  color:black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'TT Milks';
+  font-size: 21px;
+  font-weight: 650;
+  position: relative;
+  transition: color .02s;
+  -webkit-text-stroke: 0.5px white;
+}
+.watch{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  margin-left: 665px;
+  margin-top: 490px;
+}
+
+.ourchoice{
+  position: absolute;
+  height: 50px;
+  width: 230px;
+  margin-left: 650px;
+  margin-top: 600px;
+}
+
+#ourchoice_text{
+  position: relative;
+  transition: color .2s;
+  color:black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'TT Milks';
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  transition: color .02s;
+}
+
+
+.block2{
+  position: absolute;
+  height: 600px;
+  width: 1132px;
+  margin-top: 680px;
+  margin-left: 200px;
+}
+.choice1{
+  position: absolute;
+  height: 345px;
+  width: 520px;
+}
+
+#al-c1 {
+  display: table;
+  width: 100%;
+  height: 100%;
+ }
+ .container1 {
+  padding-right:5px;
+  padding-left:5px;
+  margin-right:auto;
+  margin-left:auto;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+ } 
+ .effects1 {
+  list-style:none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0;
+ }
+  
+ .effects1 li {
+  position: relative;
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  background-color: #fff;
+  font: normal 14px sans-serif;
+  overflow: hidden;
+  font-family: 'TT Milks';
+  font-size: 17px;
+  max-height: 400px;
+  transition: 0.6s;
+ }
+ .effects1 :hover{
+  border-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  transition: 0.9s;
+ }
+
+ .effects1 li:before{
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+ }
+  
+ .effects1 li img {
+  display: block;
+  position: relative;
+  max-width:100%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+  
+ .effects1 li > div {
+  width: 170%;
+  height: 170%;
+  position: absolute;
+ }
+  
+ .effects1 li:hover > div {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+ }
+  
+ .effects1 li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 10px;
+  color: #fff;
+  background: #000;
+  border-radius: 15px;
+  font-size: 100%;
+  transition: all 0.4s ease-in-out;
+ }
+  
+ .effects1 li a:hover {
+  background: #ff0000;
+  color: #fff;
+ }
+  
+ .effects1 li > div {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  transform: translate(0px, 0px) rotate(0deg);
+ }
+  
+ .effects1 li:hover div {
+  opacity: 1;
+  transform: translate(0px, 0px) rotate(0deg);
+ }
+
+
+ .choice2{
+  position: absolute;
+  height: 250px;
+  width: 605px;
+  margin-left: 525px;
+}
+#al-c2 {
+  display: table;
+  width: 100%;
+  height: 100%;
+ }
+ .container2 {
+  padding-right:5px;
+  padding-left:5px;
+  margin-right:auto;
+  margin-left:auto;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+ } 
+ .effects2 {
+  list-style:none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0;
+ }
+ .effects2 li {
+  position: relative;
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  background-color: #fff;
+  font: normal 14px sans-serif;
+  overflow: hidden;
+  font-family: 'TT Milks';
+  font-size: 17px;
+  max-height: 250px;
+  transition: 0.6s;
+ }
+ .effects2 :hover{
+  border-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  transition: 0.9s;
+ }
+  
+ .effects2 li img {
+  display: block;
+  position: relative;
+  max-width:100%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+  
+ .effects2 li > div {
+  width: 175%;
+  height: 170%;
+  position: absolute;
+ }
+  
+ .effects2 li:hover > div {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+ }
+  
+ .effects2 li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 10px;
+  color: #fff;
+  background: #000;
+  border-radius: 15px;
+  font-size: 100%;
+  transition: all 0.4s ease-in-out;
+ }
+  
+ .effects2 li a:hover {
+  background: #ff0000;
+  color: #fff;
+ }
+  
+ .effects2 li > div {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  transform: translate(0px, 0px) rotate(0deg);
+ }
+  
+ .effects2 li:hover div {
+  opacity: 1;
+  transform: translate(0px, 0px) rotate(0deg);
+ }
+
+ .choice3{
+  position: absolute;
+  height: 250px;
+  width: 520px;
+  margin-top: 350px;
+}
+#al-c3 {
+  display: table;
+  width: 100%;
+  height: 100%;
+ }
+ .container3 {
+  padding-right:5px;
+  padding-left:5px;
+  margin-right:auto;
+  margin-left:auto;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+ } 
+ .effects3 {
+  list-style:none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0;
+ }
+
+ .effects3 li {
+  position: relative;
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  background-color: #fff;
+  font: normal 14px sans-serif;
+  overflow: hidden;
+  font-family: 'TT Milks';
+  font-size: 17px;
+  max-height: 247px;
+  transition: 0.6s;
+ }
+ .effects3 :hover{
+  border-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  transition: 0.9s;
+ }
+  
+ .effects3 li img {
+  display: block;
+  position: relative;
+  max-width:100%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+  
+ .effects3 li > div {
+  width: 175%;
+  height: 170%;
+  position: absolute;
+ }
+  
+ .effects3 li:hover > div {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+ }
+  
+ .effects3 li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 10px;
+  color: #fff;
+  background: #000;
+  border-radius: 15px;
+  font-size: 100%;
+  transition: all 0.4s ease-in-out;
+ }
+  
+ .effects3 li a:hover {
+  background: #ff0000;
+  color: #fff;
+ }
+  
+ .effects3 li > div {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  transform: translate(0px, 0px) rotate(0deg);
+ }
+  
+ .effects3 li:hover div {
+  opacity: 1;
+  transform: translate(0px, 0px) rotate(0deg);
+ }
+
+ .choice4{
+  position: absolute;
+  height: 337px;
+  width: 605px;
+  margin-top: 263px;
+  margin-left: 525px;
+}
+#al-c4 {
+  display: table;
+  width: 100%;
+  height: 100%;
+ }
+ .container4 {
+  padding-right:5px;
+  padding-left:5px;
+  margin-right:auto;
+  margin-left:auto;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+ } 
+ .effects4 {
+  list-style:none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0;
+ }
+
+ .effects4 li {
+  position: relative;
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  background-color: #fff;
+  font: normal 14px sans-serif;
+  overflow: hidden;
+  font-family: 'TT Milks';
+  font-size: 17px;
+  max-height: 355px;
+  transition: 0.6s;
+ }
+ .effects4 :hover{
+  border-color: rgba(0, 0, 0, 0.993);
+  border-radius: 15px;
+  transition: 0.9s;
+ }
+  
+ .effects4 li img {
+  display: block;
+  position: relative;
+  max-width:100%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+  
+ .effects4 li > div {
+  width: 175%;
+  height: 170%;
+  position: absolute;
+ }
+  
+ .effects4 li:hover > div {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+ }
+  
+ .effects4 li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 10px;
+  color: #fff;
+  background: #000;
+  border-radius: 15px;
+  font-size: 100%;
+  transition: all 0.4s ease-in-out;
+ }
+  
+ .effects4 li a:hover {
+  background: #ff0000;
+  color: #fff;
+ }
+  
+ .effects4 li > div {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  transform: translate(0px, 0px) rotate(0deg);
+ }
+  
+ .effects4 li:hover div {
+  opacity: 1;
+  transform: translate(0px, 0px) rotate(0deg);
+ }
+
+
+ .g1{
+   width: 200px;
+   margin-top: 235px;
+   margin-left: 20px;
+   position: absolute;
+ }
+.p1{
+  margin-top: 1px;
+  position: absolute;
+  margin-left: 2px;
+}
+.s1{
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 5px;
+  border-radius: 6px;
+  background-color: rgb(255, 196, 0);
+}
+#t1{
+  position: relative;
+  transition: color .2s;
+  color:white;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+  text-shadow: black 0 0 2px;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'TT Milks';
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  transition: color .02s;
+  text-align: left;
+}
+#sell_text{
+  position: relative;
+  transition: color .2s;
+  color:black;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center; 
+  display: block;
+  font-family: 'TT Milks';
+  font-size: 15px;
+  position: relative;
+  transition: color .02s;
+}
+.g2{
+  width: 220px;
+  margin-top: 120px;
+  margin-left: 545px;
+  position: absolute;
+}
+.p2{
+ margin-top: 1px;
+ position: absolute;
+ margin-left: 3px;
+}
+.s2{
+ position: absolute;
+ margin-left: 65px;
+ margin-top: 5px;
+ border-radius: 6px;
+ background-color: rgb(255, 196, 0);
+}
+
+.g3{
+  width: 200px;
+  margin-top: 475px;
+  margin-left: 20px;
+  position: absolute;
+}
+.p3{
+ margin-top: 1px;
+ position: absolute;
+ margin-left: 2px;
+}
+.s3{
+ position: absolute;
+ margin-left: 80px;
+ margin-top: 5px;
+ border-radius: 6px;
+ background-color: rgb(255, 196, 0);
+}
+
+.g4{
+  width: 220px;
+  margin-top: 285px;
+  margin-left: 545px;
+  position: absolute;
+}
+.p4{
+ margin-top: 1px;
+ position: absolute;
+ margin-left: 3px;
+}
+.s4{
+ position: absolute;
+ margin-left: 75px;
+ margin-top: 5px;
+ border-radius: 6px;
+ background-color: rgb(255, 196, 0);
+}
+#hrr1{
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 225px;
+    width: 1080px;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgb(0, 0, 0), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgb(0, 0, 0), rgba(0,0,0,0));
+}
+
+
+#tabs-block{
+  position: absolute;
+  height: 500px;
+  width: 1510px;
+  margin-top: 3000px;
+}
+.tab {
+  padding-top: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #888;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabs {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+.tabs li {
+  float: left;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+.tabs a {
+  background-color: #eff0f2;
+  border-bottom: 1px solid #fff;
+  color: #888;
+  font-weight: 500;
+  display: block;
+  letter-spacing: 0;
+  outline: none;
+  padding: 0 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid #fffb00;
+}
+
+.tabs_item {
+  display: none;
+  padding: 30px 0;
+}
+.tabs_item h4 {
+  font-weight: bold;
+  color:#fffb00;
+  font-size: 20px;
+}
+.tabs_item img {
+  width: 500px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.tabs_item:first-child {
+  display: block;
+}
+
+.current a {
+  color: #fff;
+  background:#fffb00;
+}
+
+#sort-block{
+  position: absolute;
+  height: 350px;
+  width: 1510px;
+  margin-top: 3550px;
+}
+
+.scontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+.sitem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: 0 0 1rem transparent;
+  color: transparent;
+  margin: 1rem;
+}
+.scontainer img{
+  width: 440px;
+  border-radius: 10px;
+}
+.item.item-placeholder {
+  background-color: transparent;
+  border: 1px dashed transparent;
+  transform: scale(1.05);
+}
+.is-dragged {
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.is-dragged .item {
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+[data-sortable-draggable] {
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+[data-sortable-draggable].is-dragged {
+  position: absolute;
+  z-index: 1;
+  cursor: -moz-grabbing !important;
+  cursor: -webkit-grabbing !important;
+  cursor: grabbing !important;
+  box-shadow: 0 0 1.5rem transparent;
+}
+[data-sortable-draggable] * {
+  pointer-events: none;
+}
